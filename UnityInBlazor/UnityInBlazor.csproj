@@ -11,6 +11,10 @@
     <None Include="wwwroot\Build\Build.framework.js.unityweb" />
     <None Include="wwwroot\Build\Build.loader.js" />
     <None Include="wwwroot\Build\Build.wasm.unityweb" />
+    <None Include="wwwroot\Build\Build_WebGL.data.br" />
+    <None Include="wwwroot\Build\Build_WebGL.framework.js.br" />
+    <None Include="wwwroot\Build\Build_WebGL.loader.js" />
+    <None Include="wwwroot\Build\Build_WebGL.wasm.br" />
   </ItemGroup>
 
   <ItemGroup>
