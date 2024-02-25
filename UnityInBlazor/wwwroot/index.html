@@ -94,8 +94,20 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1280px";
-        canvas.style.height = "720px";
+          // Get the window width and height
+          var windowWidth = window.innerWidth;
+          var windowHeight = window.innerHeight;
+
+          // Calculate 80% of the window width and height
+          var canvasWidth = Math.round(0.8 * windowWidth);
+          var canvasHeight = Math.round(0.8 * windowHeight);
+
+          // Set the canvas width and height
+          canvas.style.width = canvasWidth + "px";
+          canvas.style.height = canvasHeight + "px";
+
+        //canvas.style.width = "1280px";
+        //canvas.style.height = "720px";
       }
 
       loadingBar.style.display = "block";
