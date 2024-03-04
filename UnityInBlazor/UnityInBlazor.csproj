@@ -7,38 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\Build\Build.data.unityweb" />
-    <None Include="wwwroot\Build\Build.framework.js.unityweb" />
-    <None Include="wwwroot\Build\Build.loader.js" />
-    <None Include="wwwroot\Build\Build.wasm.unityweb" />
-    <None Include="wwwroot\Build\Build_WebGL.data.br" />
-    <None Include="wwwroot\Build\Build_WebGL.framework.js.br" />
-    <None Include="wwwroot\Build\Build_WebGL.loader.js" />
-    <None Include="wwwroot\Build\Build_WebGL.wasm.br" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.1" PrivateAssets="all" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Update="wwwroot\Build\Build_WebGL.data.br">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Update="wwwroot\Build\Build_WebGL.framework.js.br">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Update="wwwroot\Build\Build_WebGL.loader.js">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Update="wwwroot\Build\Build_WebGL.wasm.br">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
   </ItemGroup>
 
 </Project>
